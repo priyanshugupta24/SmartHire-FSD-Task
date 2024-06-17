@@ -1,0 +1,80 @@
+{
+    "question1":{
+        "question" : "What is the most used computer operating system?",
+        "option1" : "Linux",
+        "option2" : "Windows",
+        "option3" : "Chrome OS",
+        "option4" : "Android"
+
+    },
+    "question2":{
+        "question" : "Consider the following languages:\nL1 = {an wan | w {a, b}*}\nL2 = {wxwR | w, x {a, b}*, | w | , | x | > 0}\n\nNote that wR is the reversal of the string w. Which of the following is/are TRUE?",
+        "option1" : "L1 and L2 are Regular",
+        "option2" : "L1 and L2 are Context-Free",
+        "option3" : "L1 is Regular and L2 is Context-Free",
+        "option4" : "L1 and L2 are Context-Free but not Regular"
+
+    },
+    "question3":{
+        "question" : "Consider a process P running on a CPU. Which one or more of the following events will always trigger a context switch by the OS that results in process P moving to a non-running state (e.g., ready, blocked)?",
+        "option1" : "P makes a Blocking System Call to Read a Block of Data from the Disk",
+        "option2" : "P tries to Access a Page that is in a Swap Space,Triggering a Page Fault",
+        "option3" : "An Interrupt is Raised by the Disk to Deliver Data Requested by Some Other Process",
+        "option4" : "A Timer is Interrupted is Raised by the Hardware"
+
+    },
+    "question4":{
+        "question" : "Which one or more of the following CPU scheduling algorithms can potentially cause starvation?",
+        "option1" : "First-In-First-Out",
+        "option2" : "Round Robin",
+        "option3" : "Priority Scheduling",
+        "option4" : "Shortest Job First"
+
+    },
+    "question5":{
+        "question" : "Consider four processes P, Q, R and S scheduled on a CPU as per round robin algorithm with a time quantum of 4 units. The processes arrive in the order P, Q, R, S, all at time t = 0. There is exactly one context switch from S to Q, exactly one context switch from R to Q, and exactly two context switches from Q to R. There is no context switch from S to P. Switching to a ready process after the termination of another process is also considered a context switch. Which one of the following is NOT possible as CPU burst time (in time units) of these processes?",
+        "option1" : "P = 4 , Q = 10 , R = 6 , S = 2",
+        "option2" : "P = 2 , Q = 9 , R = 5 , S = 1",
+        "option3" : "P = 4 , Q = 12 , R = 5 , S = 4",
+        "option4" : "P = 3 , Q = 7 , R = 7 , S = 3"
+    },
+    "question6":{
+        "question" : "Consider the following statements about process state transitions for a system using preemptive scheduling.\n\nI. A running process can move to ready state.\nII. A ready process can move to ready state.\nIII. A blocked process can move to running state.\nIV. A blocked process can move to ready state.\n\nWhich of the above statements are TRUE?",
+        "option1" : "I,II and III Only",
+        "option2" : "II and III Only",
+        "option3" : "I,II and IV Only",
+        "option4" : "I,II,III and IV"
+    },
+    "question7":{
+        "question" : "A scheduling algorithm assigns priority proportional to the waiting time of a process. Every process starts with priority zero (the lowest priority). The scheduler re-evaluates the process priorities every T time units and decides the next process to schedule. Which one of the following is TRUE if the processes have no I/O operations and all arrive at time zero?",
+        "option1" : "The Algorithm is Equivalent to the First-Come-First-Serve",
+        "option2" : "The Algorithm is Equivalent to the Round-Robin Algorithm",
+        "option3" : "The Algorithm is Equivalent to the Shortest-Job-First Algorithm",
+        "option4" : "This Algorithm is Equivalent to the Shortest-Remaining-Time-First Algorithm"
+
+    },
+    "question8":{
+        "question" : "A process executes the code\nfork();\nfork();\nfork();\n The total number of child processes created is",
+        "option1" : "3",
+        "option2" : "4",
+        "option3" : "7",
+        "option4" : "8"
+
+    },
+    "question9":{
+        "question" : "Given an integer array of size N, we want to check if the array is sorted (in either ascending or descending order). An algorithm solves this problem by making a single pass through the array and comparing each element of the array only with its adjacent elements. The worst-case time complexity of this algorithm is",
+        "option1" : "both O(N) and Omega(N)",
+        "option2" : "O(N) but not Omega(N)",
+        "option3" : "Omega(N) but not O(N)",
+        "option4" : "Neither O(N) nor Omega(N)"
+
+    },
+    "question10":{
+        "question" : "Consider a system that uses 5 bits for representing signed integers in 2’s complement format. In this system, two integers A and B are represented as A=01010 and B=11010. Which one of the following operations will result in either an arithmetic overflow or an arithmetic underflow?",
+        "option1" : "A + B",
+        "option2" : "A - B",
+        "option3" : "B - A",
+        "option4" : "2 * B"
+
+    }
+}

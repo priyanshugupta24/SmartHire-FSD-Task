@@ -1,0 +1,20 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 100vh;
+    width : 100vw;
+    flex-direction: column;
+}
+.start-test {
+    display: block;
+    margin: 0 auto;
+    padding : 1.7vw;
+    border-radius : 0.7vw;
+    font-size : 1.3vw;
+    font-weight: 500;
+    cursor: pointer;
+    border: 2px solid black;
+    text-decoration: none;
+    color : black;
+}
